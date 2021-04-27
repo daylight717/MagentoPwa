@@ -1,13 +1,17 @@
+// {
+//     "presets": ["next/babel"],
+//     "plugins": [
+//       [
+//         "import",
+//         {
+//           "libraryName": "antd",
+//           "libraryDirectory": "lib",
+//           "style": true
+//         }
+//       ]
+//     ]
+//   }
 {
     "presets": ["next/babel"],
-    "plugins": [
-      [
-        "import",
-        {
-          "libraryName": "antd",
-          "libraryDirectory": "lib",
-          "style": true
-        }
-      ]
-    ]
+    "plugins": [["styled-components", { "ssr": true }]]
   }
